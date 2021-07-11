@@ -1,0 +1,29 @@
+
+.main {
+    width: min(90%, 350px);
+    margin: auto;
+}
+.stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile {
+    background-color: red;
+}
+
+.name-city {
+    text-align: center;
+}
+
+.victor-image {
+    border-radius: 50%;
+    border: 5px white solid;
+}
+
+.background-pattern {
+    background-image: url("images/bg-pattern-card.svg");
+    width: 100%;
+    height: 140px;
+    background-repeat: no-repeat;
+}
