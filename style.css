@@ -1,15 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    min-width: 340px;
+}
 
 .main {
     width: min(90%, 350px);
     margin: auto;
+    margin-top: 15%;
+    font-family: 'Kumbh Sans', sans-serif;
+    
 }
 .stats {
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
+    border-top: .5px solid hsl(227, 10%, 46%);
+    padding: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+.socials {
+    color: hsl(227, 10%, 46%);
+}
+
+.numbers {
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 7px;
+}
+
+.name {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.name span {
+    font-weight: normal;
 }
 
 .profile {
-    background-color: red;
+    background-color: white;
 }
 
 .name-city {
@@ -19,6 +60,8 @@
 .victor-image {
     border-radius: 50%;
     border: 5px white solid;
+    margin-top: -50px;
+    padding: 0px;
 }
 
 .background-pattern {
@@ -26,4 +69,11 @@
     width: 100%;
     height: 140px;
     background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
+
+.profile {
+    border-radius: 15px;
+}
+
