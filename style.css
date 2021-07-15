@@ -9,11 +9,17 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+html {
+    overflow: hidden;
+
+}
+
 body {
     background-color: hsl(185, 75%, 39%);
-    min-width: 340px;
-    min-height: 500px;
+    /* min-width: 340px; */
+    height: 100vh;
     overflow: hidden;
+    
 
 }
 
@@ -24,6 +30,7 @@ body {
     font-family: 'Kumbh Sans', sans-serif;
     position: relative;
     z-index: 10;
+    
     /* overflow: hidden; */
     
 }
@@ -39,7 +46,13 @@ body {
 
 }
 
-.socials {
+.social {
+    color: hsl(227, 10%, 46%);
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.london {
     color: hsl(227, 10%, 46%);
 }
 
