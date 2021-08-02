@@ -103,7 +103,8 @@ body {
     border-radius: 15px;
     position: relative;
     z-index: 1000;
-    box-shadow: 0 8px 8px -4px rgb(87, 85, 85);
+    /* box-shadow: 0 8px 8px -4px rgb(87, 85, 85); */
+    box-shadow: 0 0 70px 0px rgba(0, 0, 0, 0.3);
 }
 
 .top-pattern {
